@@ -1,0 +1,13 @@
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+header .container {
+  width: 60%;
+  margin-top: 100px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
