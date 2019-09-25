@@ -2,6 +2,9 @@
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
 
+header {
+  width: 60%;
+}
 header .container {
   width: 60%;
   margin-top: 100px;
@@ -11,3 +14,26 @@ section {
   display: flex;
   justify-content: center;
 }
+.checkout-container {
+  background-color: #f8f9fa;
+  height: 100%;
+}
+
+.form-container {
+  width: 70%;
+}
+.form-container {
+  text-align: left;
+}
+
+.form-container .form-row {
+  padding: 12px;
+}
+
+h5 {
+  margin-left: 5px;
+}
+.form-check {
+  margin-left: 12px;
+}
+

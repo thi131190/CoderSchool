@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pricing Page</title>
+  <link rel="shortcut icon" href="https://i.imgur.com/hViW80o.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="checkout-container d-flex align-items-center flex-column text-center py-5">
+    <header>
+      <img class="my-2" width="128px" src="img/CoderSchoolLogo-Circle.png" alt="CS-logo" />
+      <h1 class="display-4 mb-4 text-danger font-weight-normal">
+        Checkout Form
+      </h1>
+      <p class="lead">
+        Below is an example form built with Bootstra's form controls. Each required form group has a validation state
+        that can be triggered by attempting to submit the form without completing it.
+      </p>
+    </header>
+
+    <div class="form-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h5>&nbsp;Billing address</h5>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <label for="inputFisrtName">First name</label>
+                  <input type="text" class="form-control" id="inputFirstName" placeholder="">
+                </div>
+                <div class="form-group col-6">
+                  <label for="inputLastName">Password</label>
+                  <input type="text" class="form-control" id="inputLastName" placeholder="">
+                </div>
+              </div>
+              <div class="form-group col-12">
+                <label for="inlineFormInputGroupUsername">Username</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                </div>
+              </div>
+              <div class="form-group col-12">
+                <label for="inlineFormInputGroupUsername">Email (optional)</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="you@exple.com">
+                </div>
+              </div>
+              <div class="form-group col-12">
+                <label for="inlineFormInputGroupUsername">Address</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                    placeholder="1234 Main street">
+                </div>
+              </div>
+              <div class="form-group col-12">
+                <label for="inlineFormInputGroupUsername">Address (optional)</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                    placeholder="Apartment or suite">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">Country</label>
+                  <select id="inputCountry" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Shipping address as the same as my billing address
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Save this information for next time
+                  </label>
+                </div>
+              </div>
+
+            </form>
+          </div>
+
+          <div class="col-4">
+            <h6>Your card</h6>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-8">
+            <h5>&nbsp;Payment</h5>
+            <form>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                  checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Credit card
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Debit card
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Paypal
+                </label>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <label for="inputFisrtName">Name on card</label>
+                  <input type="text" class="form-control" id="inputFirstName" placeholder="">
+                  <p>Full name as displayed on card</p>
+                </div>
+                <div class="form-group col-6">
+                  <label for="inputLastName">Credit card number</label>
+                  <input type="text" class="form-control" id="inputLastName" placeholder="">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <div class="form-row p-0">
+                    <div class="form-group col-6">
+                      <label for="inputFisrtName">Expiration</label>
+                      <input type="text" class="form-control" id="inputFirstName" placeholder="">
+                    </div>
+                    <div class="form-group col-6">
+                      <label for="inputLastName">CVV</label>
+                      <input type="text" class="form-control" id="inputLastName" placeholder="">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <button type="submit" class="btn btn-danger btn-block">Continue to checkout</button>
+            </form>
+          </div>
+          <div class="col-4">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="pt-5">
+      <p>© 2018-2019 CoderSchool.vn</p>
+      <a href="">Privacy</a>
+      <a href="">Terms</a>
+      <a href="">Support</a>
+    </footer>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
